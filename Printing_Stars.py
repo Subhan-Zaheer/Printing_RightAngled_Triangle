@@ -6,6 +6,9 @@ print("Enter a boolean 0 or 1\n",
 val = int(input())
 
 if val == 1:
+    """
+    This code will print upward Right Angled Triangle
+    """
     for i in range(1, rows+1):
         for j in range(i):
             print("*", end=" ")
@@ -13,6 +16,9 @@ if val == 1:
         print("\n")
 
 if val == 0:
+    """
+    This code will print downward Right Angled Triangle
+    """
     for i in range(rows, 0, -1):
         for j in range(i):
             print("*", end=" ")
